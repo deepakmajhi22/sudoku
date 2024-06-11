@@ -4,6 +4,7 @@ using namespace std;
 bool issafe(int i, int j, vector<vector<int> > &board, int val)
 {
     int n = board.size();
+    int a=0;
     // row check
     for (int k = 0; k < n; k++)
     {
